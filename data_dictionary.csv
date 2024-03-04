@@ -1,0 +1,13 @@
+Variable,Definition,Type
+Posted On,임대 게시일,Categorical
+BHK,"침실, 거실, 부엌 수",Numeric(Continuous)
+Rent,렌트 하우스 임대료,Numeric(Continuous)
+Size,렌트 하우스 크기(단위 : sqft),Numeric(Continuous)
+Floor,렌트 하우스 층수,Categorical
+Area Type,렌트 하우스 크기 측정 기준,Categorical(Numerical(Carpet Area: 0 Build Area: 1 Super Area: 2))
+Area Locality,렌트 하우스 주소,Categorical
+City,렌트 하우스가 위치한 도시,Categorical
+Furnishing Status,가구 옵션,Categorical(Numerical(Furnished: 0 Semi-Furnished: 1 UnFurnished: 2))
+Tenant Preferred,집주인이 원하는 입주자의 상태,Categorical(Numerical(Bachelors: 0 Family: 1 Bachelors/Family: 2))
+Bathroom,화장실 수,Numeric(Continuous)
+Point of Contact,문의 받는 사람,Categorical(Numerical(Contact Owner: 0 Contact Agent: 1))
